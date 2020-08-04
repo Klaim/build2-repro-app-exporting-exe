@@ -1,0 +1,11 @@
+: 1
+name: app
+version: 0.1.0-a.0.z
+summary: app C++ executable
+license: other: proprietary ; Not free/open source.
+description-file: README.md
+url: https://example.org/app
+email: jlamotte@softbankrobotics.com
+depends: * build2 >= 0.13.0
+depends: * bpkg >= 0.13.0
+#depends: libhello ^1.0.0
